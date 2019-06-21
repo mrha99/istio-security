@@ -1,5 +1,6 @@
-# Concept
-# Security
+[**원문: https://istio.io/docs/concepts/security/**](https://istio.io/docs/concepts/security/)
+
+<br>
 
 Monolithic 애플리케이션을 원자 서비스로 세분화하면 대응력 향상, 확장성 향상, 서비스 재사용 능력 향상 등 다양한 이점을 얻을 수 있다. 그러나 **마이크로 서비스에는 다음과 같은 특정 보안 요구 사항**도 있다.
 
