@@ -29,14 +29,6 @@ Istio의 보안에는 여러 가지 구성 요소가 포함된다.
 
 ## Istio identity
 
-**mutual authentication purposes**
-**credentials with their identity information**
-**server’s identity is checked against the secure naming information**
-**the client can access based on the authorization policies**
-**the first-class service identity to determine the identity of a service**
-**Istio PKI는 Istio Citadel 위에 구축**
-
-
 ID(Identity)는 모든 보안 인프라의 기본 개념입니다. service-to-service communication의 시작에서 양 당사자는 **상호 인증(mutual authentication) 목적으로 신원(identity) 정보와 신임 정보(credentials)를 교환**해야합니다.
 
 클라이언트 측에서는 **서버의 신원(identity)을 보안 명명 정보(secure naming information)와 대조하여 인증 된 서비스 Runner인지** 확인합니다.
